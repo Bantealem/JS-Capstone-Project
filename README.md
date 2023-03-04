@@ -16,12 +16,6 @@
 
 [Live Demo Link](https://zikazaki.github.io/JS-Capstone-Project/dist/)
 
-## Video Demo (Using Loom)
-
-[![Loom](https://img.shields.io/badge/Loom-Video-blueviolet)](https://loom.com)
-
-[Meals Lover Video Demo](https://www.loom.com/share/ea28c66ce61442e5b11c08218fe91261)
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -67,17 +61,19 @@ $ npm test
 
 ## Authors
 
+👤 **Bantealem Geto ([Bantealem Geto](https://github.com/Bantealem))**
+
+- GitHub: [Bantealem](https://github.com/Bantealem)
+- Twitter: [Bantealem](https://twitter.com/BantealemG)
+- LinkedIn: [Bantealem](https://www.linkedin.com/in/bantealem-geto-a301b9213/)
+
 👤 **Zakariya Al-Khamisi ([ZikaZaki](https://github.com/ZikaZaki))**
 
 - GitHub: [ZikaZaki](https://github.com/ZikaZaki)
 - Twitter: [Zakariya Al-Khamisi](https://twitter.com/ZakariyaKhamisi)
 - LinkedIn: [Zakariya Al-Khamisi](https://www.linkedin.com/in/zakariyaalkhamisisap/)
 
-👤 **Bantealem Geto ([Bantealem Geto](https://github.com/Bantealem))**
 
-- GitHub: [Bantealem](https://github.com/Bantealem)
-- Twitter: [Bantealem](https://twitter.com/BantealemG)
-- LinkedIn: [Bantealem](https://www.linkedin.com/in/bantealem-geto-a301b9213/)
 
 ## Show your support
 
