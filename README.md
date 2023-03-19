@@ -14,7 +14,7 @@
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blueviolet)](https://livedemo.com)
 
-[Live Demo Link](https://zikazaki.github.io/JS-Capstone-Project/dist/)
+[Live Demo Link](https://mealslover.netlify.app/)
 
 ## Getting Started
 
@@ -36,8 +36,6 @@ To get a local copy up and running follow these simple example steps.
 - Open the **Command Prompt (CMD)** in the current directory (Microverse Folder).
 - Run the following command:
 
-```
-$ git clone https://github.com/ZikaZaki/JS-Capstone-Project.git
 ```
 
 - Once finished you should see a new folder called **JS-Capstone-Project** in your current directory.
