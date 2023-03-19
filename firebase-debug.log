@@ -1,0 +1,25 @@
+[debug] [2023-03-19T11:07:52.923Z] ----------------------------------------------------------------------
+[debug] [2023-03-19T11:07:52.924Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2023-03-19T11:07:52.924Z] CLI Version:   11.24.1
+[debug] [2023-03-19T11:07:52.924Z] Platform:      linux
+[debug] [2023-03-19T11:07:52.925Z] Node Version:  v18.15.0
+[debug] [2023-03-19T11:07:52.925Z] Time:          Sun Mar 19 2023 14:07:52 GMT+0300 (East Africa Time)
+[debug] [2023-03-19T11:07:52.925Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-19T11:07:52.986Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-19T11:07:52.986Z] > authorizing via signed-in user (bantem2021@gmail.com)
+[debug] [2023-03-19T11:07:52.986Z] [iam] checking project meals-a69b4 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-03-19T11:07:52.988Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/meals-a69b4:testIamPermissions [none]
+[debug] [2023-03-19T11:07:52.988Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/meals-a69b4:testIamPermissions x-goog-quota-user=projects/meals-a69b4
+[debug] [2023-03-19T11:07:52.988Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/meals-a69b4:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-03-19T11:07:54.671Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/meals-a69b4:testIamPermissions 200
+[debug] [2023-03-19T11:07:54.672Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/meals-a69b4:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-03-19T11:07:54.674Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/meals-a69b4 [none]
+[debug] [2023-03-19T11:07:55.317Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/meals-a69b4 200
+[debug] [2023-03-19T11:07:55.319Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/meals-a69b4 {"projectId":"meals-a69b4","projectNumber":"691308639770","displayName":"meals","name":"projects/meals-a69b4","resources":{"hostingSite":"meals-a69b4"},"state":"ACTIVE","etag":"1_0d8465b7-75f7-479e-a567-abbe959fba65"}
+[info] 
+[info] === Deploying to 'meals-a69b4'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2023-03-19T11:07:55.337Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/meals-a69b4/versions [none]
+[debug] [2023-03-19T11:07:55.338Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/meals-a69b4/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
